@@ -1,7 +1,7 @@
 #include "LCD.h"
 #include "main.h"
 
-// Since the LCD works on 5V and the SAM only works on 3.3V I had to step up the output
+// Since the LCD works on 5V and the STM32 only works on 3.3V I had to step up the output
 // I only had a ULN2003 on hand which inverts the signals. So all my signals are inverted
 // the LCD you have may work on 3.3V the one i stole was broken and so i used my own
 // but it uses the same driver as new haven so this should work
